@@ -141,7 +141,7 @@ li {
 
   .nav-bar ul {
     position: fixed;
-    top: 0;
+    top: 75px;
     left: 0;
     height: 100%;
     width: 100%;
@@ -152,8 +152,8 @@ li {
     gap: 1.5rem;
     z-index: 100;
     background-color: #6209DB;
-    transition: 500ms;
-    transform: translateY(-100vh);
+    transition: 300ms;
+    transform: translateY(-120vh);
   }
 
   .nav-bar .responsive_nav {

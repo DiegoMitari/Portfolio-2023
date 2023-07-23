@@ -22,11 +22,10 @@ const NavBar = () => {
               <AiOutlineClose size={30} className='text-center md:hidden' />
             </button>
           </li>
-          <li><a href='#skills' className='navbar-item text-xl cursor-pointer hover:text-[#6209DB]'>Skills</a></li>
-          <li><a href='#projects' className='navbar-item text-xl cursor-pointer hover:text-[#6209DB]'>Projects</a></li>
+          <li><a href='#skills' className='navbar-item text-2xl md:text-xl cursor-pointer hover:text-[#6209DB]' onClick={showNavbar}>Skills</a></li>
+          <li><a href='#projects' className='navbar-item text-2xl md:text-xl cursor-pointer hover:text-[#6209DB]' onClick={showNavbar}>Projects</a></li>
           <li>
-            <a href={cv} target="_blank"
-              className='bg-[#6209DB] text-white active:bg-white active:text-[#6209DB] px-4 py-2 border-none rounded-md'>
+            <a href={cv} target="_blank" className='navbar-item text-2xl md:text-xl cursor-pointer hover:text-[#6209DB]' onClick={showNavbar}>
               Resume
             </a>
           </li>
@@ -34,7 +33,7 @@ const NavBar = () => {
 
 
         <button className="nav-btn" onClick={showNavbar}>
-          <AiOutlineMenu size={30} />
+          <AiOutlineMenu size={30} className='text-center md:hidden' />
         </button>
       </nav>
     </div>
