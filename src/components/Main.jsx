@@ -40,7 +40,7 @@ const Main = () => {
             My goal is to become Full Stack🧑‍💻.
           </p>
           <p className='text-2xl leading-relaxed'>
-            If I&apos;m not browsing twitter, I&apos;ll probably find myself fixing bugs.
+            If I&apos;m not browsing twitter, I&apos;ll probably be fixing bugs.
           </p>
         </div>
       </div>
