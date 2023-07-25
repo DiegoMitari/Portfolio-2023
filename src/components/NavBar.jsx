@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-import cv from '../../public/assets/CV_Diego_Mitma.pdf';
+import cv from '../../public/CV_Diego_Mitma.pdf';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 
 // import { BsFillMoonStarsFill } from 'react-icons/bs';
@@ -14,7 +14,7 @@ const NavBar = () => {
   return (
     <div>
       <nav className='nav-bar py-8 mb-8 flex justify-between'>
-        <h1 className='text-2xl md:text-3xl font-bold text-gradient'>Diego Mitari</h1>
+        <h1 className='text-2xl md:text-3xl font-bold text-gradient'>Diego Mitma</h1>
 
         <ul className='flex items-center gap-8 font-bold' ref={navRef}>
           <li>
