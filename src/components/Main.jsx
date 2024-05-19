@@ -27,20 +27,20 @@ const Main = () => {
         </a>
       </div>
       <div className='main-flex flex items-center justify-between gap-6 m-5 mt-10'>
-        <div className='rounded-lg'>
-          <img src={avatar} className='object-cover rounded-full' />
+        <div>
+          <img src={avatar} className='object-cover rounded-full img-gradient' />
         </div>
         <div className='main-flex-text mx-10 text-gray-500'>
-          <p className='text-2xl leading-relaxed'>
-            I studied Industrial Engineering, after 06 years working as such 👷, I found my true passion in Web Development.
-            Currently I am improving my skills as a programmer.
+          <p className='text-xl leading-relaxed'>
+            I studied Industrial Engineering, after six years working in the field 👷, I discovered my true passion: Web Development.
+            Currently I am improving my skills as a Developer.
           </p>
-          <p className='text-2xl leading-relaxed'>
-            The technologies I use the most are: HTML, CSS, JS and ReactJS.
+          <p className='text-xl leading-relaxed'>
+            The technologies I use the most are: HTML, CSS, TailwindCSS, JavaScript and ReactJS.
             My goal is to become Full Stack🧑‍💻.
           </p>
-          <p className='text-2xl leading-relaxed'>
-            If I&apos;m not browsing twitter, I&apos;ll probably be fixing bugs.
+          <p className='text-xl leading-relaxed'>
+            When I&apos;m not browsing twitter, you'&apos;ll probably find me fixing bugs.
           </p>
         </div>
       </div>
