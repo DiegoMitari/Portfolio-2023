@@ -1,13 +1,16 @@
 {
   "name": "portfolio-2023",
   "private": true,
+  "homepage": "https://diegomitari.github.io/Portfolio-2023",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "gsap": "^3.12.1",
